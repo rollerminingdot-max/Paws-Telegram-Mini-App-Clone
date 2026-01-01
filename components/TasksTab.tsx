@@ -43,11 +43,6 @@ const TasksTab = () => {
             reward: '+ 2,000 PAWS'
         },
         {
-            icon: taskBoost.src,
-            title: 'Boost PAWS channel',
-            reward: '+ 2,500 PAWS'
-        },
-        {
             icon: TaskTelegram,
             title: 'Follow channel',
             reward: '+ 1,000 PAWS'
@@ -63,6 +58,12 @@ const TasksTab = () => {
             reward: '+ 5,000 PAWS'
         },
         {
+            icon: TaskPaws,
+            title: 'Watch video (every 10 min)',
+            reward: '+ 100 PAWS',
+            type: 'monetag'
+        },
+        {
             icon: TaskWallet,
             title: 'Connect wallet',
             reward: '+ 3,000 PAWS'
@@ -75,7 +76,7 @@ const TasksTab = () => {
             icon: taskBlum.src,
             title: 'Join Blum Channel',
             reward: '+ 1,000 PAWS'
-        }
+        },
     ]
 
     return (
