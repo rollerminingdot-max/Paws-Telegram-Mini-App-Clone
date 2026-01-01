@@ -146,9 +146,12 @@ const TasksTab = () => {
                                 <div className="text-[17px]">{task.title}</div>
                                 <div className="text-gray-400 text-[14px]">{task.reward}</div>
                             </div>
-                            <button className="h-8 bg-white text-black px-4 rounded-full text-sm font-medium flex items-center">
-                                Start
-                            </button>
+                            <button
+    onClick={() => alert('زر Start يعمل 👍')}
+    className="h-8 bg-white text-black px-4 rounded-full text-sm font-medium flex items-center"
+>
+    Start
+</button> 
                         </div>
                     </div>
                 ))}
