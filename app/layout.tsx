@@ -38,6 +38,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <script
+  src="//libtl.com/sdk.js"
+  data-zone="10404224"
+  data-sdk="show_10404224"
+></script>
       </body>
     </html>
   );
