@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    eslint: {
-        ignoreDuringBuilds: true,
-    },
-};
+  output: 'export',
+  basePath: '/Paws-Telegram-Mini-App-Clone',
+  assetPrefix: '/Paws-Telegram-Mini-App-Clone/',
+  images: {
+    unoptimized: true,
+  },
+}
 
-export default nextConfig;
+export default nextConfig
