@@ -2,8 +2,8 @@
 const nextConfig = {
   output: 'export',
 
-  basePath: '/Paws-Telegram-Mini-App-Clone',
-  assetPrefix: '/Paws-Telegram-Mini-App-Clone/',
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
 
   trailingSlash: true,
 
@@ -12,4 +12,4 @@ const nextConfig = {
   },
 }
 
-export default nextConfig
+export default nextConfig 
